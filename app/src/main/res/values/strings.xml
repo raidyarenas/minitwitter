@@ -6,4 +6,7 @@
     <string name="signIn">Sign In</string>
     <string name="logo">Logo Image</string>
     <string name="create_account">If you still do not have an account, Sign Up Here</string>
+    <string name="signUp">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="ready_account">Ya tienes cuente, Inicia Sesión Aquí</string>
 </resources>
