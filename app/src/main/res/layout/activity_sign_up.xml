@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/blue"
-    tools:context=".SignUpActivity">
+    android:onClick="submitFormRegister"
+    tools:context=".ui.activities.SignUpActivity">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guidelineLeft"
@@ -96,6 +97,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:onClick="submitFormRegister"
         android:text="@string/signUp"
         android:textColor="@color/blueDark"
         android:textColorHint="@color/white"

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="blue">#01ACED</color>
-    <color name="blueDark">#0E84B1</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">@color/blue</color>
+    <color name="primaryDarkColor">@color/white</color>
+    <color name="secondaryColor">@color/blueDark</color>
+
+    <color name="blue">#01aced</color>
+    <color name="blueDark">#1D6783</color>
+    <color name="white">#ffffff</color>
 </resources>

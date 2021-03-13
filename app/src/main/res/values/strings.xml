@@ -9,4 +9,17 @@
     <string name="signUp">Sign Up</string>
     <string name="username">Username</string>
     <string name="ready_account">Ya tienes cuente, Inicia Sesión Aquí</string>
+    <string name="email_required">Email required</string>
+    <string name="password_required">Password Required</string>
+    <string name="bad_connection">Check your Internet Connection</string>
+    <string name="login_success">Welcome, Your Authentication Was Successful</string>
+    <string name="login_error">Incorrect Credential</string>
+    <string name="username_required">Username is required</string>
+    <string name="register_success">Register Success</string>
+    <string name="register_failed">Register Failed</string>
+    <string name="title_activity_dashboard">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_like">Likes</string>
+    <string name="title_account">Account</string>
+    <string name="create_tweet">Create Tweet</string>
 </resources>
