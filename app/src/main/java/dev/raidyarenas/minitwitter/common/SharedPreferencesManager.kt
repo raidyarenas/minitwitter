@@ -55,13 +55,13 @@ object SharedPreferencesManager: SharedPreferences {
 
     fun setAuthResponse(data: AuthResponse) {
         editor
-                .putString(Constants.PREFERENCE_TOKEN, data.token)
-                .putString(Constants.PREFERENCE_USERNAME, data.username)
-                .putString(Constants.PREFERENCE_EMAIL, data.email)
-                .putString(Constants.PREFERENCE_PHOTO_URL, data.photoUrl)
-                .putString(Constants.PREFERENCE_ROLE, data.role)
-                .putBoolean(Constants.PREFERENCE_ACTIVE, data.active)
-                .putString(Constants.PREFERENCE_CREATED, data.created)
-                .commit()
+            .putString(Constants.PREFERENCE_TOKEN, data.token)
+            .putString(Constants.PREFERENCE_USERNAME, data.username)
+            .putString(Constants.PREFERENCE_EMAIL, data.email)
+            .putString(Constants.PREFERENCE_PHOTO_URL, data.photoUrl)
+            .putString(Constants.PREFERENCE_ROLE, data.role)
+            .putBoolean(Constants.PREFERENCE_ACTIVE, data.active)
+            .putString(Constants.PREFERENCE_CREATED, data.created)
+            .commit()
     }
 }

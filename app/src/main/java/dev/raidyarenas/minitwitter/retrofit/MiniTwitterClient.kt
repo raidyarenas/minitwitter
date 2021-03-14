@@ -1,7 +1,8 @@
 package dev.raidyarenas.minitwitter.retrofit
 
+import android.util.Log
 import dev.raidyarenas.minitwitter.common.Constants
-import dev.raidyarenas.minitwitter.services.AuthService
+import dev.raidyarenas.minitwitter.common.SharedPreferencesManager
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -16,8 +17,8 @@ object MiniTwitterClient {
         .addConverterFactory(GsonConverterFactory.create())
         .client(clientHttp)
         .build()
-    private var authService: AuthService = retrofit.create(AuthService::class.java)
     fun <T> buildService(service: Class<T>) : T {
+        Log.i("PREFERENCES", SharedPreferencesManager.all.toString())
         return retrofit.create(service)
     }
 }
