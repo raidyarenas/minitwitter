@@ -1,6 +1,5 @@
 package dev.raidyarenas.minitwitter.retrofit
 
-import android.util.Log
 import dev.raidyarenas.minitwitter.common.Constants
 import dev.raidyarenas.minitwitter.common.SharedPreferencesManager
 import okhttp3.Interceptor
